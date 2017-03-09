@@ -1,0 +1,22 @@
+#+TITLE: Dakrone's Light Theme
+#+AUTHOR: Lee Hinman
+#+EMAIL: leehinman@fastmail.com
+#+SETUPFILE: ~/eos/setupfiles/tufte.setup
+
+| *Author* | {{{author}}} ({{{email}}})    |
+| *Date*   | {{{time(%Y-%m-%d %H:%M:%S)}}} |
+
+* Introduction
+
+This theme isn't ready yet :)
+
+If you really want to use it, check it out somewhere and use:
+
+#+BEGIN_SRC emacs-lisp
+(when (file-exists-p "/path/to/dakrone-light-theme")
+  (add-to-list 'custom-theme-load-path
+               "/path/to/dakrone-light-theme")
+  (load-theme 'dakrone-light t))
+#+END_SRC
+
+I'll upload screenshots and all that when its stabilized.
