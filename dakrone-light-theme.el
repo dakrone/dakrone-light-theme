@@ -2,8 +2,8 @@
 ;; Copyright (C) 2013 Lee Hinman
 
 ;; Author: Lee Hinman <lee _AT_ writequit.org>
-;; URL: https://github.com/dakrone/dakrone-theme
-;; Version: 0.0.2
+;; URL: https://github.com/dakrone/dakrone-light-theme
+;; Version: 1.0.0
 ;; Keywords: color themes
 ;; This file is not part of GNU Emacs.
 
@@ -97,9 +97,11 @@
  '(eshell-prompt ((t (:foreground "#c65d09")))))
 
 ;;;###autoload
-(when load-file-name
-  (add-to-list 'custom-theme-load-path
-               (file-name-as-directory (file-name-directory load-file-name))))
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
 
 (provide-theme 'dakrone-light)
 
