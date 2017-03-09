@@ -19,8 +19,7 @@
 ;;; Code:
 
 (deftheme dakrone-light
-  "Dakrone's dark background theme.
-Dark gray background with lots of greens, teals and blues.")
+  "Dakrone's light background theme.")
 
 (custom-theme-set-faces
  'dakrone-light
@@ -67,13 +66,15 @@ Dark gray background with lots of greens, teals and blues.")
  '(gnus-group-news-2-empty ((t (:foreground "tomato3"))))
  '(gnus-group-news-3 ((t (:inherit gnus-group-news-3-empty :weight bold))))
  '(gnus-group-news-3-empty ((t (:foreground "tomato2"))))
- '(header-line ((t (:inherit mode-line :inverse-video t))))
+ '(header-line ((t (:background "#f0f0f0"))))
+ '(helm-header ((t (:background "#f0f0f0"))))
+ '(mu4e-unread-face ((t (:foreground "#005588" :weight bold))))
  '(hl-line ((t (:background "grey95"))))
  '(hl-paren-face ((t (:weight bold))) t)
  '(org-agenda-date ((t (:inherit org-agenda-structure))))
  '(org-agenda-date-today ((t (:inherit org-agenda-date :underline t))))
  '(org-agenda-date-weekend ((t (:inherit org-agenda-date :foreground "dark green"))))
- '(org-agenda-structure ((t (:foreground "Blue1" :weight bold :height 1.1 :family "DeJaVu Sans"))))
+ '(org-agenda-structure ((t (:foreground "#555555" :weight bold :height 1.1 :family "DeJaVu Sans"))))
  '(org-hide ((t (:foreground "white"))))
  '(org-level-1 ((t (:inherit outline-1 :box nil))))
  '(org-level-2 ((t (:inherit outline-2 :box nil))))
@@ -92,7 +93,6 @@ Dark gray background with lots of greens, teals and blues.")
  '(outline-6 ((t (:inherit font-lock-constant-face :weight bold))))
  '(outline-7 ((t (:inherit font-lock-builtin-face :weight bold))))
  '(outline-8 ((t (:inherit font-lock-string-face :weight bold))))
- '(rcirc-my-nick ((t (:foreground "LightSkyBlue" :weight bold))))
  '(region ((t (:background "lightgoldenrod1"))))
  '(eshell-prompt ((t (:foreground "#c65d09")))))
 
