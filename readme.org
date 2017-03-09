@@ -1,10 +1,7 @@
 #+TITLE: Dakrone's Light Theme
 #+AUTHOR: Lee Hinman
 #+EMAIL: leehinman@fastmail.com
-#+SETUPFILE: ~/eos/setupfiles/tufte.setup
-
-| *Author* | {{{author}}} ({{{email}}})    |
-| *Date*   | {{{time(%Y-%m-%d %H:%M:%S)}}} |
+#+SETUPFILE: ~/eos/setupfiles/default.setup
 
 * Introduction
 
