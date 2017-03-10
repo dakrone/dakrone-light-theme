@@ -76,10 +76,12 @@
  '(gnus-group-news-3-empty ((t (:foreground "tomato2"))))
  '(header-line ((t (:background "#f0f0f0"))))
  '(helm-header ((t (:background "#f0f0f0"))))
+ '(helm-source-header
+   ((t (:height 1.1 :foreground "black" :weight bold :background "#abd7f0"))))
  '(mu4e-unread-face ((t (:foreground "#005588" :weight bold))))
  '(mu4e-header-highlight-face
-   ((t (:background "grey95" :weight bold :underline t))))
- '(hl-line ((t (:background "grey95"))))
+   ((t (:background "grey90" :weight bold :underline t))))
+ '(hl-line ((t (:background "grey90"))))
  '(hl-paren-face ((t (:weight bold))) t)
  '(org-agenda-date ((t (:inherit org-agenda-structure))))
  '(org-agenda-date-today ((t (:inherit org-agenda-date :underline t))))
