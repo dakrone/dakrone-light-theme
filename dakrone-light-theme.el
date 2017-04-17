@@ -1,5 +1,5 @@
 ;;; dakrone-light-theme.el --- dakrone's custom light theme
-;; Copyright (C) 2013 Lee Hinman
+;; Copyright (C) 2017 Lee Hinman
 
 ;; Author: Lee Hinman <lee _AT_ writequit.org>
 ;; URL: https://github.com/dakrone/dakrone-light-theme
@@ -8,7 +8,7 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
-;; A light theme
+;; A high-contrast light theme with greens and steely blues
 ;;
 ;; To use, put the following in your Emacs config:
 ;;
@@ -19,7 +19,8 @@
 ;;; Code:
 
 (deftheme dakrone-light
-  "Dakrone's light background theme.")
+  "Dakrone's light background theme. A high-contrast light theme
+  with greens and steely blues")
 
 (custom-theme-set-faces
  'dakrone-light
