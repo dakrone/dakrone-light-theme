@@ -50,6 +50,12 @@
  '(diff-indicator-removed ((t (:inherit diff-indicator-changed))))
  '(diff-removed ((t (:inherit diff-changed :background "sandy brown"))))
  '(dired-directory ((t (:inherit font-lock-function-name-face :weight bold))))
+ '(hl-line ((t (:background "grey90"))))
+ '(hl-paren-face ((t (:weight bold))) t)
+ '(region ((t (:background "lightgoldenrod1"))))
+ '(eshell-prompt ((t (:foreground "#c65d09"))))
+
+ ;; Dired+
  '(diredp-dir-name ((t (:inherit font-lock-function-name-face))))
  '(diredp-file-name ((t (:inherit font-lock-constant-face))))
  '(diredp-dir-priv ((t (:foreground "black"))))
@@ -60,6 +66,8 @@
  '(diredp-compressed-file-suffix ((t (:foreground "#888888"))))
  '(font-lock-regexp-grouping-backslash ((t (:inherit bold :foreground "black"))))
  '(font-lock-regexp-grouping-construct ((t (:inherit bold :foreground "black"))))
+
+ ;; Gnus
  '(gnus-button ((t (:inherit button))))
  '(gnus-header-name ((t (:box (:line-width 1 :style released-button) :weight bold))))
  '(gnus-group-mail-1 ((t (:inherit gnus-group-mail-1-empty :weight bold))))
@@ -75,14 +83,18 @@
  '(gnus-group-news-3 ((t (:inherit gnus-group-news-3-empty :weight bold))))
  '(gnus-group-news-3-empty ((t (:foreground "tomato2"))))
  '(header-line ((t (:background "#f0f0f0"))))
+
+ ;; Helm
  '(helm-header ((t (:background "#f0f0f0"))))
  '(helm-source-header
    ((t (:height 1.1 :foreground "black" :weight bold :background "#abd7f0"))))
+
+ ;; Mu4e
  '(mu4e-unread-face ((t (:foreground "#005588" :weight bold))))
  '(mu4e-header-highlight-face
    ((t (:background "grey90" :weight bold :underline t))))
- '(hl-line ((t (:background "grey90"))))
- '(hl-paren-face ((t (:weight bold))) t)
+
+ ;; Org-mode
  '(org-agenda-date ((t (:inherit org-agenda-structure))))
  '(org-agenda-date-today ((t (:inherit org-agenda-date :underline t))))
  '(org-agenda-date-weekend ((t (:inherit org-agenda-date :foreground "dark green"))))
@@ -105,8 +117,11 @@
  '(outline-6 ((t (:inherit font-lock-constant-face :weight bold))))
  '(outline-7 ((t (:inherit font-lock-builtin-face :weight bold))))
  '(outline-8 ((t (:inherit font-lock-string-face :weight bold))))
- '(region ((t (:background "lightgoldenrod1"))))
- '(eshell-prompt ((t (:foreground "#c65d09")))))
+
+ ;; Semantic
+ '(semantic-tag-boundary-face ((t (:overline "steel blue"))))
+ '(semantic-highlight-func-current-tag-face ((t (:background "grey95"))))
+ )
 
 ;;;###autoload
 (and load-file-name
