@@ -55,6 +55,12 @@
  '(region ((t (:background "lightgoldenrod1"))))
  '(eshell-prompt ((t (:foreground "#c65d09"))))
 
+ ;; visible mark
+ '(visible-mark-active ((t (:background "#DDDDDD"))))
+
+ ;; Linum & nLinum
+ '(linumm ((t (:height 0.85 :foreground "grey50"))))
+
  ;; Dired+
  '(diredp-dir-name ((t (:inherit font-lock-function-name-face))))
  '(diredp-file-name ((t (:inherit font-lock-constant-face))))
