@@ -4,7 +4,7 @@
 ;; Author: Lee Hinman <lee _AT_ writequit.org>
 ;; URL: https://github.com/dakrone/dakrone-light-theme
 ;; Version: 1.0.0
-;; Keywords: color themes
+;; Keywords: color themes faces
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
@@ -144,6 +144,8 @@
  '(outline-8 ((t (:inherit font-lock-string-face :weight bold))))
  '(org-block-begin-line ((t (:foreground "grey55" :underline t :background "grey98"))))
  '(org-block-end-line ((t (:foreground "grey55" :overline t :background "grey98"))))
+ '(org-mode-line-clock ((t (:foreground "#16446b"))))
+ '(org-mode-line-clock-overrun ((t (:background "#fa8072"))))
 
  ;; Semantic
  '(semantic-tag-boundary-face ((t (:overline "steel blue"))))
@@ -158,6 +160,7 @@
                    (file-name-directory load-file-name))))
 
 (provide-theme 'dakrone-light)
+(provide 'dakrone-light-theme)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
