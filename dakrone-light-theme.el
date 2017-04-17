@@ -41,19 +41,31 @@
  '(font-lock-negation-char-face ((t (:foreground "#fa8072"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#888888"))))
  '(sh-heredoc ((t (:background "#fff0f0" :foreground "black"))))
- '(highlight-numbers-number ((t (:foreground "#4400EE"))))
  '(default ((t (:background "white" :foreground "black"))))
  '(diff-added ((t (:inherit diff-changed :background "light green"))))
  '(diff-changed ((t (:background "light steel blue"))))
+ '(diff-removed ((t (:inherit diff-changed :background "sandy brown"))))
  '(diff-indicator-added ((t (:inherit diff-indicator-changed))))
  '(diff-indicator-changed ((t (:weight bold))))
  '(diff-indicator-removed ((t (:inherit diff-indicator-changed))))
- '(diff-removed ((t (:inherit diff-changed :background "sandy brown"))))
  '(dired-directory ((t (:inherit font-lock-function-name-face :weight bold))))
  '(hl-line ((t (:background "grey90"))))
  '(hl-paren-face ((t (:weight bold))) t)
  '(region ((t (:background "lightgoldenrod1"))))
  '(eshell-prompt ((t (:foreground "#c65d09"))))
+ '(show-paren-match ((t (:background "#0088DD" :foreground "white"))))
+
+ ;; git-gutter
+ '(git-gutter:added ((t (:foreground "light green" :weight bold))))
+ '(git-gutter:modified ((t (:foreground "steel blue" :weight bold))))
+ '(git-gutter:deleted ((t (:foreground "#fa8072" :weight bold))))
+
+ ;; highlight-numbers
+ '(highlight-numbers-number ((t (:foreground "#4400EE"))))
+
+ ;; eyebrowse
+ '(eyebrowse-mode-line-active ((t (:bold t :foreground "brown"))))
+ '(eyebrowse-mode-line-inactive ((t (:inherit default))))
 
  ;; visible mark
  '(visible-mark-active ((t (:background "#DDDDDD"))))
@@ -107,6 +119,7 @@
  '(org-agenda-structure ((t (:foreground "steel blue" :weight bold :height 1.1 :family "DeJaVu Sans"))))
  '(org-agenda-clocking ((t (:background "light steel blue"))))
  '(org-time-grid ((t (:foreground "#007020"))))
+ '(org-block ((t (:inherit shadow))))
  '(org-hide ((t (:foreground "white"))))
  '(org-level-1 ((t (:inherit outline-1 :box nil))))
  '(org-level-2 ((t (:inherit outline-2 :box nil))))
