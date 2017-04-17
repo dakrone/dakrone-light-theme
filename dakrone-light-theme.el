@@ -122,6 +122,9 @@
  '(org-time-grid ((t (:foreground "#007020"))))
  '(org-block ((t (:inherit shadow))))
  '(org-hide ((t (:foreground "white"))))
+ '(org-table ((t (:foreground "#0066BB"))))
+ '(org-verbatim ((t (:foreground "SteelBlue4" :bold t))))
+ '(org-code ((t (:foreground "SeaGreen4"))))
  '(org-level-1 ((t (:inherit outline-1 :box nil))))
  '(org-level-2 ((t (:inherit outline-2 :box nil))))
  '(org-level-3 ((t (:inherit outline-3 :box nil))))
@@ -139,6 +142,8 @@
  '(outline-6 ((t (:inherit font-lock-constant-face :weight bold))))
  '(outline-7 ((t (:inherit font-lock-builtin-face :weight bold))))
  '(outline-8 ((t (:inherit font-lock-string-face :weight bold))))
+ '(org-block-begin-line ((t (:foreground "grey55" :underline t :background "grey98"))))
+ '(org-block-end-line ((t (:foreground "grey55" :overline t :background "grey98"))))
 
  ;; Semantic
  '(semantic-tag-boundary-face ((t (:overline "steel blue"))))

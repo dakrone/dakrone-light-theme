@@ -5,9 +5,9 @@
 
 * Introduction
 
-This theme isn't ready yet :)
+This theme isn't ready yet, but feel free to check it out! :)
 
-If you really want to use it, check it out somewhere and use:
+If you want to use it, check it out somewhere and use:
 
 #+BEGIN_SRC emacs-lisp
 (when (file-exists-p "/path/to/dakrone-light-theme")
