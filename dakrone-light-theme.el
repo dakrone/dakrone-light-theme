@@ -25,6 +25,7 @@
 (custom-theme-set-faces
  'dakrone-light
  '(default ((t (:foreground "black" :background "#f9f9f9"))))
+ '(fringe ((t (:background "#f9f9f9"))))
  '(foreground-color ((t (:foreground "black"))))
  '(Info-quoted ((t (:underline "gray40" :weight bold))))
  '(aw-leading-char-face ((t (:background "red" :foreground "white" :weight bold))))
