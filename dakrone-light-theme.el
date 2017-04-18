@@ -147,6 +147,7 @@
  '(org-block-end-line ((t (:foreground "grey55" :overline t :background "grey98"))))
  '(org-mode-line-clock ((t (:foreground "#16446b"))))
  '(org-mode-line-clock-overrun ((t (:background "#fa8072"))))
+ '(org-special-keyword ((t (:foreground "#90a4be"))))
 
  ;; Semantic
  '(semantic-tag-boundary-face ((t (:overline "steel blue"))))
