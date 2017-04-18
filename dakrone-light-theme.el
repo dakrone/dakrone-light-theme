@@ -73,7 +73,7 @@
  '(visible-mark-active ((t (:background "#DDDDDD"))))
 
  ;; Linum & nLinum
- '(linumm ((t (:height 0.85 :foreground "grey50"))))
+ '(linum ((t (:foreground "grey65" :height 0.85))))
 
  ;; Dired+
  '(diredp-dir-name ((t (:inherit font-lock-function-name-face))))
