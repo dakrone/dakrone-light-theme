@@ -151,6 +151,14 @@
  ;; Semantic
  '(semantic-tag-boundary-face ((t (:overline "steel blue"))))
  '(semantic-highlight-func-current-tag-face ((t (:background "grey95"))))
+
+ ;; Company
+ '(company-tooltip ((t (:background "#e0f4fe"))))
+ '(company-tooltip-selection ((t (:background "light steel blue"))))
+
+ ;; TODO:
+ ;; anzu
+
  )
 
 ;;;###autoload
