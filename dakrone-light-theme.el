@@ -121,7 +121,7 @@
  '(org-agenda-structure ((t (:foreground "steel blue" :weight bold :height 1.1 :family "DeJaVu Sans"))))
  '(org-agenda-clocking ((t (:background "light steel blue"))))
  '(org-time-grid ((t (:foreground "#007020"))))
- '(org-block ((t (:inherit shadow))))
+ '(org-block ((t (:inherit nil))))
  '(org-hide ((t (:foreground "white"))))
  '(org-table ((t (:foreground "#0066BB"))))
  '(org-verbatim ((t (:foreground "SteelBlue4" :bold t))))
