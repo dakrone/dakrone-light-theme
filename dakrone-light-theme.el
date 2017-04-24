@@ -134,7 +134,7 @@
  '(org-level-6 ((t (:inherit outline-6 :box nil))))
  '(org-level-7 ((t (:inherit outline-7 :box nil))))
  '(org-level-8 ((t (:inherit outline-8 :box nil))))
- '(org-tag ((t (:weight bold))))
+ '(org-tag ((t (:foreground "grey60"))))
  '(outline-1 ((t (:inherit font-lock-function-name-face :weight bold))))
  '(outline-2 ((t (:inherit font-lock-variable-name-face :weight bold))))
  '(outline-3 ((t (:inherit font-lock-keyword-face :weight bold))))
