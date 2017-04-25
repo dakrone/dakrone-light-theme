@@ -24,11 +24,10 @@
 
 (custom-theme-set-faces
  'dakrone-light
- '(default ((t (:foreground "black" :background "#f9f9f9"))))
- '(fringe ((t (:background "#f9f9f9"))))
+ '(default ((t (:foreground "black" :background "#f5f5f5"))))
+ '(fringe ((t (:background "#f5f5f5"))))
  '(foreground-color ((t (:foreground "black"))))
  '(Info-quoted ((t (:underline "gray40" :weight bold))))
- '(aw-leading-char-face ((t (:background "red" :foreground "white" :weight bold))))
  '(font-lock-comment-face ((t (:foreground "#888888"))))
  '(font-lock-string-face ((t (:background "#fff0f0"))))
  '(font-lock-keyword-face ((t (:foreground "#008800"))))
@@ -38,7 +37,7 @@
  '(font-lock-type-face ((t (:foreground "#333399"))))
  '(font-lock-constant-face ((t (:foreground "#003366"))))
  '(font-lock-warning-face ((t (:foreground "#ff0000" :bold t))))
- '(font-lock-doc-face ((t (:foreground "#6D2402"))))
+ '(font-lock-doc-face ((t (:foreground "#206070"))))
  '(font-lock-preprocessor-face ((t (:foreground "#557799"))))
  '(font-lock-negation-char-face ((t (:foreground "#fa8072"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#888888"))))
@@ -159,7 +158,6 @@
 
  ;; TODO:
  ;; anzu
-
  )
 
 ;;;###autoload
