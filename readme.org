@@ -29,16 +29,16 @@ Or, to run from source check it out somewhere and use:
 * Screenshots
 
 Java
-https://cloud.githubusercontent.com/assets/19060/25566378/b9c12d3e-2d94-11e7-92e0-b0c82e9deb1e.png
+[[https://cloud.githubusercontent.com/assets/19060/25566378/b9c12d3e-2d94-11e7-92e0-b0c82e9deb1e.png][https://cloud.githubusercontent.com/assets/19060/25566378/b9c12d3e-2d94-11e7-92e0-b0c82e9deb1e.png]]
 
 Org-mode
-https://cloud.githubusercontent.com/assets/19060/25566380/b9c44a3c-2d94-11e7-996a-ccfb701a0684.png
+[[https://cloud.githubusercontent.com/assets/19060/25566380/b9c44a3c-2d94-11e7-996a-ccfb701a0684.png][https://cloud.githubusercontent.com/assets/19060/25566380/b9c44a3c-2d94-11e7-996a-ccfb701a0684.png]]
 
 Emacs Lisp
-https://cloud.githubusercontent.com/assets/19060/25566379/b9c410da-2d94-11e7-8498-521b4035c2bf.png
+[[https://cloud.githubusercontent.com/assets/19060/25566379/b9c410da-2d94-11e7-8498-521b4035c2bf.png][https://cloud.githubusercontent.com/assets/19060/25566379/b9c410da-2d94-11e7-8498-521b4035c2bf.png]]
 
 Haskell
-https://cloud.githubusercontent.com/assets/19060/25566382/b9c99eec-2d94-11e7-9ced-49a33d0d149d.png
+[[https://cloud.githubusercontent.com/assets/19060/25566382/b9c99eec-2d94-11e7-9ced-49a33d0d149d.png][https://cloud.githubusercontent.com/assets/19060/25566382/b9c99eec-2d94-11e7-9ced-49a33d0d149d.png]]
 
 Gnus
-https://cloud.githubusercontent.com/assets/19060/25566381/b9c77a0e-2d94-11e7-9051-1875ccdb0136.png
+[[https://cloud.githubusercontent.com/assets/19060/25566381/b9c77a0e-2d94-11e7-9051-1875ccdb0136.png][https://cloud.githubusercontent.com/assets/19060/25566381/b9c77a0e-2d94-11e7-9051-1875ccdb0136.png]]
