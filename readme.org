@@ -5,9 +5,19 @@
 
 * Introduction
 
-This theme isn't ready yet, but feel free to check it out! :)
+This is my custom light theme, it's a lot of blues, greens, and a bit of purple and brown. Feel free
+to open an issue if there's a mode that looks ugly!
 
-If you want to use it, check it out somewhere and use:
+If you want to use it, once it's on MELPA (it's not currently) you can use:
+
+#+BEGIN_SRC emacs-lisp
+(use-package dakrone-light-theme
+  :ensure t
+  :init
+  (load-theme 'dakrone-light t))
+#+END_SRC
+
+Or, to run from source check it out somewhere and use:
 
 #+BEGIN_SRC emacs-lisp
 (when (file-exists-p "/path/to/dakrone-light-theme")
@@ -16,4 +26,19 @@ If you want to use it, check it out somewhere and use:
   (load-theme 'dakrone-light t))
 #+END_SRC
 
-I'll upload screenshots and all that when its stabilized.
+* Screenshots
+
+Java
+https://cloud.githubusercontent.com/assets/19060/25566378/b9c12d3e-2d94-11e7-92e0-b0c82e9deb1e.png
+
+Org-mode
+https://cloud.githubusercontent.com/assets/19060/25566380/b9c44a3c-2d94-11e7-996a-ccfb701a0684.png
+
+Emacs Lisp
+https://cloud.githubusercontent.com/assets/19060/25566379/b9c410da-2d94-11e7-8498-521b4035c2bf.png
+
+Haskell
+https://cloud.githubusercontent.com/assets/19060/25566382/b9c99eec-2d94-11e7-9ced-49a33d0d149d.png
+
+Gnus
+https://cloud.githubusercontent.com/assets/19060/25566381/b9c77a0e-2d94-11e7-9051-1875ccdb0136.png
