@@ -24,8 +24,8 @@
 
 (custom-theme-set-faces
  'dakrone-light
- '(default ((t (:foreground "black" :background "#f5f5f5"))))
- '(fringe ((t (:background "#f5f5f5"))))
+ '(default ((t (:foreground "black" :background "#f9f9f9"))))
+ '(fringe ((t (:background "#f9f9f9"))))
  '(foreground-color ((t (:foreground "black"))))
  '(Info-quoted ((t (:underline "gray40" :weight bold))))
  '(font-lock-comment-face ((t (:foreground "#888888"))))
