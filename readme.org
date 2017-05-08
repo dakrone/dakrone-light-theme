@@ -8,7 +8,7 @@
 This is my custom light theme, it's a lot of blues, greens, and a bit of purple and brown. Feel free
 to open an issue if there's a mode that looks ugly!
 
-If you want to use it, once it's on MELPA (it's not currently) you can use:
+If you want to use it, it's on MELPA, so you can use:
 
 #+BEGIN_SRC emacs-lisp
 (use-package dakrone-light-theme
@@ -17,7 +17,7 @@ If you want to use it, once it's on MELPA (it's not currently) you can use:
   (load-theme 'dakrone-light t))
 #+END_SRC
 
-Or, to run from source check it out somewhere and use:
+Or, to run from source, check it out somewhere and use:
 
 #+BEGIN_SRC emacs-lisp
 (when (file-exists-p "/path/to/dakrone-light-theme")
