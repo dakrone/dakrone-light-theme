@@ -68,7 +68,8 @@
  '(region ((t (:background "lightgoldenrod1"))))
  '(eshell-prompt ((t (:foreground "#c65d09"))))
  '(show-paren-match ((t (:background "#0088DD" :foreground "white"))))
-
+ '(mode-line ((t (:box (:line-width 1) :background "grey80"))))
+ '(mode-line-inactive ((t (:background "#f9f9f9" :box (:line-width 1 :color "grey80")))))
  ;; git-gutter
  '(git-gutter:added ((t (:foreground "light green" :weight bold))))
  '(git-gutter:modified ((t (:foreground "steel blue" :weight bold))))
