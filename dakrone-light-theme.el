@@ -79,8 +79,8 @@
  '(highlight-numbers-number ((t (:foreground "#4400EE"))))
 
  ;; eyebrowse
- '(eyebrowse-mode-line-active ((t (:bold t :foreground "brown"))))
- '(eyebrowse-mode-line-inactive ((t (:inherit default))))
+ '(eyebrowse-mode-line-active ((t (:bold t :foreground "brown" :slant italic))))
+ '(eyebrowse-mode-line-inactive ((t (:background nil))))
 
  ;; visible mark
  '(visible-mark-active ((t (:background "#DDDDDD"))))
